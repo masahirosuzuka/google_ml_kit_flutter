@@ -1,6 +1,8 @@
 import 'dart:math';
+import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
+import 'package:flutter/painting.dart';
 import 'package:google_mlkit_commons/google_mlkit_commons.dart';
 
 /// A barcode scanner that scans and decodes barcodes from a given [InputImage].
